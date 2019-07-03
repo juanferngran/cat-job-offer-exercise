@@ -1,0 +1,42 @@
+{
+  "revision_id": "839cad094515299ebd911df14ea78c4ad009a770ef8314ab57d6d256a926ddb1",
+  "name": "git_cookbook",
+  "run_list": [
+    "recipe[git_cookbook::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "git_cookbook": {
+      "version": "0.1.0",
+      "identifier": "e0e9ac75f6005d000bcb0b1ae8e714ae7550940c",
+      "dotted_decimal_identifier": "63307321705889885.12966692579559.22739525080076",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "git_cookbook",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "git_cookbook (0.1.0)": [
+
+      ]
+    }
+  }
+}
